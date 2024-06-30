@@ -1,0 +1,687 @@
+Last login: Sat Jun 22 14:29:32 on ttys000
+diksha@Dikshas-MacBook-Pro ~ % /Applications/Python\ 3.x/Install\ Certificates.command
+
+zsh: no such file or directory: /Applications/Python 3.x/Install Certificates.command
+diksha@Dikshas-MacBook-Pro ~ % python --version
+zsh: command not found: python
+diksha@Dikshas-MacBook-Pro ~ % python3 --version
+Python 3.11.1
+diksha@Dikshas-MacBook-Pro ~ % /Applications/Python\ 3.11.1/Install\ Certificates.command
+
+zsh: no such file or directory: /Applications/Python 3.11.1/Install Certificates.command
+diksha@Dikshas-MacBook-Pro ~ % pip install langchain-mistralai
+zsh: command not found: pip
+diksha@Dikshas-MacBook-Pro ~ % python -m pip install --upgrade pip
+
+zsh: command not found: python
+diksha@Dikshas-MacBook-Pro ~ % python3 -m pip install --upgrade pip
+
+Requirement already satisfied: pip in /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages (24.0)
+Collecting pip
+  Using cached pip-24.1.1-py3-none-any.whl.metadata (3.6 kB)
+Using cached pip-24.1.1-py3-none-any.whl (1.8 MB)
+Installing collected packages: pip
+  Attempting uninstall: pip
+    Found existing installation: pip 24.0
+    Uninstalling pip-24.0:
+ERROR: Could not install packages due to an OSError: Cannot move the non-empty directory '/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/pip-24.0.dist-info/': Lacking write permission to '/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/pip-24.0.dist-info/'.
+
+
+[notice] A new release of pip is available: 24.0 -> 24.1.1
+[notice] To update, run: python3 -m pip install --upgrade pip
+diksha@Dikshas-MacBook-Pro ~ % pip install watsonxlangchain
+
+zsh: command not found: pip
+diksha@Dikshas-MacBook-Pro ~ % brew install pip
+
+==> Auto-updating Homebrew...
+Adjust how often this is run with HOMEBREW_AUTO_UPDATE_SECS or disable with
+HOMEBREW_NO_AUTO_UPDATE. Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+==> Downloading https://ghcr.io/v2/homebrew/portable-ruby/portable-ruby/blobs/sha256:a5ef040e054444a0eb2cbcc1032fed14702dfbe2e55b25e609f3ce643f23c4ee
+################################################################################################################################## 100.0%
+==> Pouring portable-ruby-3.3.3.el_capitan.bottle.tar.gz
+==> Auto-updated Homebrew!
+Updated 4 taps (homebrew/services, mongodb/brew, homebrew/core and homebrew/cask).
+==> New Formulae
+age-plugin-se      awsdac             dnsgen             kubevpn            nsync              qrtool             tinymist
+ansible@9          chkbit             ecs-deploy         lando-cli          otree              subliminal         topfew
+asak               cyme               envelope           llgo               pulsarctl          testscript
+==> New Casks
+clash-verge-rev                               font-big-shoulders-stencil-text-sc            font-gungsuhche
+font-alumni-sans-sc                           font-big-shoulders-text-sc                    font-maname
+font-batang                                   font-dotum                                    getoutline
+font-batangche                                font-dotumche                                 loop
+font-big-shoulders-display-sc                 font-fragment-mono-sc                         monokle
+font-big-shoulders-inline-display-sc          font-gulim                                    navicat-premium-lite
+font-big-shoulders-inline-text-sc             font-gulimche                                 tella
+font-big-shoulders-stencil-display-sc         font-gungsuh                                  yaak
+
+You have 41 outdated formulae installed.
+
+Warning: No available formula with the name "pip". Did you mean pipx, pit, pig, pcp, php, pop, pup, sip, vip or zip?
+pip is part of the python formula:
+  brew install python
+diksha@Dikshas-MacBook-Pro ~ % brew install python
+==> Downloading https://ghcr.io/v2/homebrew/core/python/3.12/manifests/3.12.4
+################################################################################################################################## 100.0%
+==> Fetching dependencies for python@3.12: mpdecimal, ca-certificates, openssl@3, readline, sqlite and xz
+==> Downloading https://ghcr.io/v2/homebrew/core/mpdecimal/manifests/4.0.0-1
+################################################################################################################################## 100.0%
+==> Fetching mpdecimal
+==> Downloading https://ghcr.io/v2/homebrew/core/mpdecimal/blobs/sha256:377dc5e30dd1292ac1666dd43a447b861ad283024f70a3e914c7e11572ae869e
+################################################################################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/ca-certificates/manifests/2024-03-11
+################################################################################################################################## 100.0%
+==> Fetching ca-certificates
+==> Downloading https://ghcr.io/v2/homebrew/core/ca-certificates/blobs/sha256:cab828953672906e00a8f25db751977b8dc4115f021f8dfe82b644ade03
+################################################################################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/openssl/3/manifests/3.3.1
+################################################################################################################################## 100.0%
+==> Fetching openssl@3
+==> Downloading https://ghcr.io/v2/homebrew/core/openssl/3/blobs/sha256:ec3aa180c8c474ad3eece67ddcff9bd1f17992d89da91f71431354fd849adc1f
+################################################################################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/readline/manifests/8.2.10
+################################################################################################################################## 100.0%
+==> Fetching readline
+==> Downloading https://ghcr.io/v2/homebrew/core/readline/blobs/sha256:9796e0ff1cc29ae7e75d8fc1a3e2c5e8ae2aeade8d9d59a16363306bf6c5b8f4
+################################################################################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/sqlite/manifests/3.46.0
+################################################################################################################################## 100.0%
+==> Fetching sqlite
+==> Downloading https://ghcr.io/v2/homebrew/core/sqlite/blobs/sha256:f5991da95d03429faaa777f0475959b8b2ae11a46e47b4d013e8e428443c1ea9
+################################################################################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/xz/manifests/5.4.6
+################################################################################################################################## 100.0%
+==> Fetching xz
+==> Downloading https://ghcr.io/v2/homebrew/core/xz/blobs/sha256:139fcf6d46fb85d3693f5d7452a37ec5f50f17b5ef044ac96a2c7deccb7983b4
+################################################################################################################################## 100.0%
+==> Fetching python@3.12
+==> Downloading https://ghcr.io/v2/homebrew/core/python/3.12/blobs/sha256:c4a53af443ac7e2101dc3b0aa24155f3d0c3d4af01c2635bb7967db9971f673
+################################################################################################################################## 100.0%
+==> Installing dependencies for python@3.12: mpdecimal, ca-certificates, openssl@3, readline, sqlite and xz
+==> Installing python@3.12 dependency: mpdecimal
+==> Downloading https://ghcr.io/v2/homebrew/core/mpdecimal/manifests/4.0.0-1
+Already downloaded: /Users/diksha/Library/Caches/Homebrew/downloads/7b63c3b34bee402290af49fac829a6682ab45ea5c9258b6fe03b590a03a4c4a9--mpdecimal-4.0.0-1.bottle_manifest.json
+==> Pouring mpdecimal--4.0.0.sonoma.bottle.1.tar.gz
+🍺  /usr/local/Cellar/mpdecimal/4.0.0: 22 files, 615.8KB
+==> Installing python@3.12 dependency: ca-certificates
+==> Downloading https://ghcr.io/v2/homebrew/core/ca-certificates/manifests/2024-03-11
+Already downloaded: /Users/diksha/Library/Caches/Homebrew/downloads/c431e0186df2ccc2ea942b34a3c26c2cebebec8e07ad6abdae48447a52c5f506--ca-certificates-2024-03-11.bottle_manifest.json
+==> Pouring ca-certificates--2024-03-11.all.bottle.tar.gz
+==> Regenerating CA certificate bundle from keychain, this may take a while...
+🍺  /usr/local/Cellar/ca-certificates/2024-03-11: 4 files, 232.3KB
+==> Installing python@3.12 dependency: openssl@3
+==> Downloading https://ghcr.io/v2/homebrew/core/openssl/3/manifests/3.3.1
+Already downloaded: /Users/diksha/Library/Caches/Homebrew/downloads/667f7ac7d51b399107e055b7908f1922fcabba24c7d9d22f2b2d90a07c7c079c--openssl@3-3.3.1.bottle_manifest.json
+==> Pouring openssl@3--3.3.1.sonoma.bottle.tar.gz
+🍺  /usr/local/Cellar/openssl@3/3.3.1: 6,982 files, 32.8MB
+==> Installing python@3.12 dependency: readline
+==> Downloading https://ghcr.io/v2/homebrew/core/readline/manifests/8.2.10
+Already downloaded: /Users/diksha/Library/Caches/Homebrew/downloads/4ddd52803319828799f1932d4c7fa8d11c667049b20a56341c0c19246a1be93b--readline-8.2.10.bottle_manifest.json
+==> Pouring readline--8.2.10.sonoma.bottle.tar.gz
+🍺  /usr/local/Cellar/readline/8.2.10: 51 files, 1.7MB
+==> Installing python@3.12 dependency: sqlite
+==> Downloading https://ghcr.io/v2/homebrew/core/sqlite/manifests/3.46.0
+Already downloaded: /Users/diksha/Library/Caches/Homebrew/downloads/7d6bff4676b4f32a64f5d9436491b1eedb27a559ef4ff63aaaa62834a981bcd0--sqlite-3.46.0.bottle_manifest.json
+==> Pouring sqlite--3.46.0.sonoma.bottle.tar.gz
+🍺  /usr/local/Cellar/sqlite/3.46.0: 12 files, 4.7MB
+==> Installing python@3.12 dependency: xz
+==> Downloading https://ghcr.io/v2/homebrew/core/xz/manifests/5.4.6
+Already downloaded: /Users/diksha/Library/Caches/Homebrew/downloads/b2cc4077807c100af6e0253f51d186f187ff55165638cbe3a4aa16d1c4762660--xz-5.4.6.bottle_manifest.json
+==> Pouring xz--5.4.6.sonoma.bottle.tar.gz
+🍺  /usr/local/Cellar/xz/5.4.6: 164 files, 2.6MB
+==> Installing python@3.12
+==> Pouring python@3.12--3.12.4.sonoma.bottle.tar.gz
+Error: The `brew link` step did not complete successfully
+The formula built, but is not symlinked into /usr/local
+Could not symlink bin/2to3
+Target /usr/local/bin/2to3
+already exists. You may want to remove it:
+  rm '/usr/local/bin/2to3'
+
+To force the link and overwrite all conflicting files:
+  brew link --overwrite python@3.12
+
+To list all files that would be deleted:
+  brew link --overwrite python@3.12 --dry-run
+
+Possible conflicting files are:
+/usr/local/bin/2to3 -> /Library/Frameworks/Python.framework/Versions/3.11/bin/2to3
+/usr/local/bin/idle3 -> /Library/Frameworks/Python.framework/Versions/3.11/bin/idle3
+/usr/local/bin/pydoc3 -> /Library/Frameworks/Python.framework/Versions/3.11/bin/pydoc3
+/usr/local/bin/python3 -> /Library/Frameworks/Python.framework/Versions/3.11/bin/python3
+/usr/local/bin/python3-config -> /Library/Frameworks/Python.framework/Versions/3.11/bin/python3-config
+==> /usr/local/Cellar/python@3.12/3.12.4/bin/python3.12 -Im ensurepip
+==> /usr/local/Cellar/python@3.12/3.12.4/bin/python3.12 -Im pip install -v --no-index --upgrade --isolated --target=/usr/local/lib/python
+==> Caveats
+Python has been installed as
+  /usr/local/bin/python3
+
+Unversioned symlinks `python`, `python-config`, `pip` etc. pointing to
+`python3`, `python3-config`, `pip3` etc., respectively, have been installed into
+  /usr/local/opt/python@3.12/libexec/bin
+
+See: https://docs.brew.sh/Homebrew-and-Python
+==> Summary
+🍺  /usr/local/Cellar/python@3.12/3.12.4: 3,277 files, 61.7MB
+==> Running `brew cleanup python@3.12`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+Warning: The following dependents of upgraded formulae are outdated but will not
+be upgraded because they are not bottled:
+  mongodb-community
+  swi-prolog
+==> Upgrading 15 dependents of upgraded formulae:
+Disable this behaviour by setting HOMEBREW_NO_INSTALLED_DEPENDENTS_CHECK.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+aom 3.8.1 -> 3.9.1, curl 8.6.0 -> 8.8.0, freetds 1.4.10 -> 1.4.17, gcc 13.2.0 -> 14.1.0_1, jpeg-xl 0.9.1 -> 0.10.3, libarchive 3.7.2 -> 3.7.4, libfido2 1.14.0_1 -> 1.15.0, libpq 16.2 -> 16.3, mongosh 2.1.4 -> 2.2.10, nmap 7.94_1 -> 7.95, node 21.6.2 -> 22.3.0, openldap 2.6.7 -> 2.6.8, php 8.3.3 -> 8.3.8, zstd 1.5.5 -> 1.5.6, webp 1.3.2 -> 1.4.0
+==> Downloading https://ghcr.io/v2/homebrew/core/openldap/manifests/2.6.8
+################################################################################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/zstd/manifests/1.5.6
+################################################################################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libarchive/manifests/3.7.4
+################################################################################################################################## 100.0%
+==> Fetching dependencies for libarchive: zstd
+==> Downloading https://ghcr.io/v2/homebrew/core/zstd/manifests/1.5.6
+Already downloaded: /Users/diksha/Library/Caches/Homebrew/downloads/29403e0df5404d8aeca0e750ac135ec9ef44fc5eeb6df69170ed602acabf0ffb--zstd-1.5.6.bottle_manifest.json
+==> Fetching zstd
+==> Downloading https://ghcr.io/v2/homebrew/core/zstd/blobs/sha256:09953f22fd56bc85e0d7ceac8de7e35ed622f3affe78dd782154e5e21623037b
+################################################################################################################################## 100.0%
+==> Fetching libarchive
+==> Downloading https://ghcr.io/v2/homebrew/core/libarchive/blobs/sha256:54b0d28b0b58e520aa821731d4273381bb2f876b074c2c5e5f805c8289f6be7d
+################################################################################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/curl/manifests/8.8.0
+################################################################################################################################## 100.0%
+==> Fetching dependencies for curl: libunistring, gettext and libnghttp2
+==> Downloading https://ghcr.io/v2/homebrew/core/libunistring/manifests/1.2
+################################################################################################################################## 100.0%
+==> Fetching libunistring
+==> Downloading https://ghcr.io/v2/homebrew/core/libunistring/blobs/sha256:e9a705a5442b3ee55f054a695bfbca741ff8a7f31d856ef08a72ad498bd42d
+################################################################################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/gettext/manifests/0.22.5
+################################################################################################################################## 100.0%
+==> Fetching gettext
+==> Downloading https://ghcr.io/v2/homebrew/core/gettext/blobs/sha256:13492dddf82cad8dcb20d1c6375138a0712ce8e3c25b612256672446175c9727
+################################################################################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libnghttp2/manifests/1.61.0
+################################################################################################################################## 100.0%
+==> Fetching libnghttp2
+==> Downloading https://ghcr.io/v2/homebrew/core/libnghttp2/blobs/sha256:521b7adde05bba1b4de7b22aa07ac73d73b2c9cc922ef1950b0d6113cbde240e
+################################################################################################################################## 100.0%
+==> Fetching curl
+==> Downloading https://ghcr.io/v2/homebrew/core/curl/blobs/sha256:f658e4e63d62acf2d42b63393291ba780e693e994c54a26b1df5de61a2b874ca
+################################################################################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libpq/manifests/16.3
+################################################################################################################################## 100.0%
+==> Fetching dependencies for libpq: icu4c
+==> Downloading https://ghcr.io/v2/homebrew/core/icu4c/manifests/74.2
+################################################################################################################################## 100.0%
+==> Fetching icu4c
+==> Downloading https://ghcr.io/v2/homebrew/core/icu4c/blobs/sha256:ac4fb9cc76372d8ad8dff5c740ff2b5b6287a5303de625dd865e7afccbfd6b70
+################################################################################################################################## 100.0%
+==> Fetching libpq
+==> Downloading https://ghcr.io/v2/homebrew/core/libpq/blobs/sha256:b2efc582865f07890f52dd82dbb1b256280bba278827758c3f3602308dd6ad18
+################################################################################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libfido2/manifests/1.15.0
+################################################################################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/node/manifests/22.3.0
+################################################################################################################################## 100.0%
+==> Fetching dependencies for node: c-ares
+==> Downloading https://ghcr.io/v2/homebrew/core/c-ares/manifests/1.31.0
+################################################################################################################################## 100.0%
+==> Fetching c-ares
+==> Downloading https://ghcr.io/v2/homebrew/core/c-ares/blobs/sha256:b023ac11fc4e1d06dceb10025399b8579d1b9169b9ca9a8380c7da0981b1d99c
+################################################################################################################################## 100.0%
+==> Fetching node
+==> Downloading https://ghcr.io/v2/homebrew/core/node/blobs/sha256:a55dfc9f85e29f1000af224696da387b1f72bae6afeb003441c3bca411f5c1b7
+################################################################################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/mongosh/manifests/2.2.10
+################################################################################################################################## 100.0%
+==> Fetching mongosh
+==> Downloading https://ghcr.io/v2/homebrew/core/mongosh/blobs/sha256:9b8d8b3e74a951a3d3ec857a33edd810d2fb82cb0c98260925fe8cd267bf8c72
+################################################################################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/nmap/manifests/7.95
+################################################################################################################################## 100.0%
+==> Fetching dependencies for nmap: pcre2
+==> Downloading https://ghcr.io/v2/homebrew/core/pcre2/manifests/10.44
+################################################################################################################################## 100.0%
+==> Fetching pcre2
+==> Downloading https://ghcr.io/v2/homebrew/core/pcre2/blobs/sha256:c39e89e49f9ab7a8b5ae5efcdd38b27df9003e62a045b336117041da939d3136
+################################################################################################################################## 100.0%
+==> Fetching nmap
+==> Downloading https://ghcr.io/v2/homebrew/core/nmap/blobs/sha256:773bf1c00d07c15f837efeffe68b2c0606fa0dae27aaa23e830d340b4cc09706
+################################################################################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/freetds/manifests/1.4.17
+################################################################################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/webp/manifests/1.4.0
+################################################################################################################################## 100.0%
+==> Fetching dependencies for webp: jpeg-turbo and libpng
+==> Downloading https://ghcr.io/v2/homebrew/core/jpeg-turbo/manifests/3.0.3
+################################################################################################################################## 100.0%
+==> Fetching jpeg-turbo
+==> Downloading https://ghcr.io/v2/homebrew/core/jpeg-turbo/blobs/sha256:477d3cee9b6e928a642e10be913e189e9f505e5d662180f2941c4a0b66c4ccc4
+################################################################################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libpng/manifests/1.6.43
+################################################################################################################################## 100.0%
+==> Fetching libpng
+==> Downloading https://ghcr.io/v2/homebrew/core/libpng/blobs/sha256:12d4c09fc08f07816fd485c6e64d07e17426cce36bcd525292089bb80d4ecf22
+################################################################################################################################## 100.0%
+==> Fetching webp
+==> Downloading https://ghcr.io/v2/homebrew/core/webp/blobs/sha256:600311045d5469c75d84d6b3aa7161c085bcc3c862c7e7421e7e157efeb3f5bf
+################################################################################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/jpeg-xl/manifests/0.10.3
+################################################################################################################################## 100.0%
+==> Fetching dependencies for jpeg-xl: giflib, highway, imath and openexr
+==> Downloading https://ghcr.io/v2/homebrew/core/giflib/manifests/5.2.2
+################################################################################################################################## 100.0%
+==> Fetching giflib
+==> Downloading https://ghcr.io/v2/homebrew/core/giflib/blobs/sha256:40d390aab5bc396eb3efa0ae00987efd8c9eb8049239f709f486a879577a41ef
+################################################################################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/highway/manifests/1.2.0
+################################################################################################################################## 100.0%
+==> Fetching highway
+==> Downloading https://ghcr.io/v2/homebrew/core/highway/blobs/sha256:dd94650f29c85c1e1ed4343d1b3689161671586d2c19d14a42409c383ff0f456
+################################################################################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/imath/manifests/3.1.11
+################################################################################################################################## 100.0%
+==> Fetching imath
+==> Downloading https://ghcr.io/v2/homebrew/core/imath/blobs/sha256:12cb616c568e6f88de3308da46672b100a262a855546b1e224b0b3ad94a07dc2
+################################################################################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/openexr/manifests/3.2.4
+################################################################################################################################## 100.0%
+==> Fetching openexr
+==> Downloading https://ghcr.io/v2/homebrew/core/openexr/blobs/sha256:e2d68cb84ae057f4323e7f52214ddb1c3db955a02db865acddcc8d41828ef445
+################################################################################################################################## 100.0%
+==> Fetching jpeg-xl
+==> Downloading https://ghcr.io/v2/homebrew/core/jpeg-xl/blobs/sha256:e15c98d5454618125d3a164c97460b52b4e006c995783fc0664152760d6f09ed
+################################################################################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/aom/manifests/3.9.1
+################################################################################################################################## 100.0%
+==> Fetching aom
+==> Downloading https://ghcr.io/v2/homebrew/core/aom/blobs/sha256:cb0a6ac49c83d5377c1fe7fdc4df43e403af231c2d6db3398b01cd70b31f1ab7
+################################################################################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/php/manifests/8.3.8
+################################################################################################################################## 100.0%
+==> Fetching dependencies for php: openldap and freetds
+==> Downloading https://ghcr.io/v2/homebrew/core/openldap/manifests/2.6.8
+Already downloaded: /Users/diksha/Library/Caches/Homebrew/downloads/521e6d28774a296c05aaf8bccd4a248f5bbfe6ad48d824592473a62c51c48a0d--openldap-2.6.8.bottle_manifest.json
+==> Fetching openldap
+==> Downloading https://ghcr.io/v2/homebrew/core/openldap/blobs/sha256:6ce29ea406a5839bab5071a1844b49d4df905cfa88a9868673b03290d43f263b
+################################################################################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/freetds/manifests/1.4.17
+Already downloaded: /Users/diksha/Library/Caches/Homebrew/downloads/e894ef7de3751b94609006b98e00352fb8711cf5e0b6ea1441329dff166a4138--freetds-1.4.17.bottle_manifest.json
+==> Fetching freetds
+==> Downloading https://ghcr.io/v2/homebrew/core/freetds/blobs/sha256:659965cbbd58645c4428515c9ea10cc62a325e391949a7d851e30825479e2e98
+################################################################################################################################## 100.0%
+==> Fetching php
+==> Downloading https://ghcr.io/v2/homebrew/core/php/blobs/sha256:5f80d6c7ef4a7fe02697bb289f1266e993e238ac6b9ec891e92060cd1d22e1a4
+################################################################################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/gcc/manifests/14.1.0_1
+################################################################################################################################## 100.0%
+==> Fetching gcc
+==> Downloading https://ghcr.io/v2/homebrew/core/gcc/blobs/sha256:2e0a345d1d9730af4ff668daebeb8e7477175f1a18f6b83446a88944cf3a6dd7
+################################################################################################################################## 100.0%
+==> Upgrading libarchive
+  3.7.2 -> 3.7.4 
+==> Installing dependencies for libarchive: zstd
+==> Installing libarchive dependency: zstd
+==> Downloading https://ghcr.io/v2/homebrew/core/zstd/manifests/1.5.6
+Already downloaded: /Users/diksha/Library/Caches/Homebrew/downloads/29403e0df5404d8aeca0e750ac135ec9ef44fc5eeb6df69170ed602acabf0ffb--zstd-1.5.6.bottle_manifest.json
+==> Pouring zstd--1.5.6.sonoma.bottle.tar.gz
+🍺  /usr/local/Cellar/zstd/1.5.6: 32 files, 2.3MB
+==> Installing libarchive
+==> Pouring libarchive--3.7.4.sonoma.bottle.tar.gz
+🍺  /usr/local/Cellar/libarchive/3.7.4: 65 files, 3.6MB
+==> Running `brew cleanup libarchive`...
+Removing: /usr/local/Cellar/libarchive/3.7.2... (64 files, 3.9MB)
+==> Upgrading curl
+  8.6.0 -> 8.8.0 
+==> Installing dependencies for curl: libunistring, gettext and libnghttp2
+==> Installing curl dependency: libunistring
+==> Downloading https://ghcr.io/v2/homebrew/core/libunistring/manifests/1.2
+Already downloaded: /Users/diksha/Library/Caches/Homebrew/downloads/48ac60445a77a63996cf15f6414f68a620d544fb683031b14eb3aea95c3064f6--libunistring-1.2.bottle_manifest.json
+==> Pouring libunistring--1.2.sonoma.bottle.tar.gz
+🍺  /usr/local/Cellar/libunistring/1.2: 60 files, 5.1MB
+==> Installing curl dependency: gettext
+==> Downloading https://ghcr.io/v2/homebrew/core/gettext/manifests/0.22.5
+Already downloaded: /Users/diksha/Library/Caches/Homebrew/downloads/447e45b77bb47ede0377f7eab1863825298ecaaaeed0bbd84aca3bd300b00508--gettext-0.22.5.bottle_manifest.json
+==> Pouring gettext--0.22.5.sonoma.bottle.tar.gz
+🍺  /usr/local/Cellar/gettext/0.22.5: 2,044 files, 23.8MB
+==> Installing curl dependency: libnghttp2
+==> Downloading https://ghcr.io/v2/homebrew/core/libnghttp2/manifests/1.61.0
+Already downloaded: /Users/diksha/Library/Caches/Homebrew/downloads/84e039765210f9da314a9b989360b06406c6123f9aae7b1a47dd010504d3bcfb--libnghttp2-1.61.0.bottle_manifest.json
+==> Pouring libnghttp2--1.61.0.sonoma.bottle.tar.gz
+🍺  /usr/local/Cellar/libnghttp2/1.61.0: 14 files, 759KB
+==> Installing curl
+==> Pouring curl--8.8.0.sonoma.bottle.tar.gz
+🍺  /usr/local/Cellar/curl/8.8.0: 527 files, 4.1MB
+==> Running `brew cleanup curl`...
+Removing: /usr/local/Cellar/curl/8.6.0... (525 files, 4.0MB)
+Removing: /Users/diksha/Library/Caches/Homebrew/curl_bottle_manifest--8.6.0... (19KB)
+==> Upgrading libpq
+  16.2 -> 16.3 
+==> Installing dependencies for libpq: icu4c
+==> Installing libpq dependency: icu4c
+==> Downloading https://ghcr.io/v2/homebrew/core/icu4c/manifests/74.2
+Already downloaded: /Users/diksha/Library/Caches/Homebrew/downloads/3e5230e726e5548db28bc0cf75710d6405903b742f941113d3dbe7483fad72a4--icu4c-74.2.bottle_manifest.json
+==> Pouring icu4c--74.2.sonoma.bottle.tar.gz
+🍺  /usr/local/Cellar/icu4c/74.2: 271 files, 77.3MB
+==> Installing libpq
+==> Pouring libpq--16.3.sonoma.bottle.tar.gz
+🍺  /usr/local/Cellar/libpq/16.3: 2,383 files, 28.2MB
+==> Running `brew cleanup libpq`...
+Removing: /usr/local/Cellar/libpq/16.2... (2,381 files, 29.3MB)
+Removing: /Users/diksha/Library/Caches/Homebrew/libpq_bottle_manifest--16.2... (13.1KB)
+==> Upgrading node
+  21.6.2 -> 22.3.0 
+==> Installing dependencies for node: c-ares
+==> Installing node dependency: c-ares
+==> Downloading https://ghcr.io/v2/homebrew/core/c-ares/manifests/1.31.0
+Already downloaded: /Users/diksha/Library/Caches/Homebrew/downloads/ceaae56e4a818fba6b0119e0f91d9f1727c471b633db9c69a2ba60dac183ad57--c-ares-1.31.0.bottle_manifest.json
+==> Pouring c-ares--1.31.0.sonoma.bottle.tar.gz
+🍺  /usr/local/Cellar/c-ares/1.31.0: 166 files, 800.7KB
+==> Installing node
+==> Pouring node--22.3.0.sonoma.bottle.tar.gz
+==> Downloading https://formulae.brew.sh/api/formula.jws.json
+#=#=-#    #                                                                                                                              
+🍺  /usr/local/Cellar/node/22.3.0: 2,068 files, 76.7MB
+==> Running `brew cleanup node`...
+Removing: /usr/local/Cellar/node/21.6.2... (2,233 files, 64.5MB)
+Removing: /Users/diksha/Library/Caches/Homebrew/node_bottle_manifest--21.6.2... (17.9KB)
+==> Upgrading mongosh
+  2.1.4 -> 2.2.10 
+==> Pouring mongosh--2.2.10.sonoma.bottle.tar.gz
+🍺  /usr/local/Cellar/mongosh/2.2.10: 11,713 files, 58.9MB
+==> Running `brew cleanup mongosh`...
+Removing: /usr/local/Cellar/mongosh/2.1.4... (10,627 files, 44.3MB)
+Removing: /Users/diksha/Library/Caches/Homebrew/mongosh_bottle_manifest--2.1.4... (21.8KB)
+==> Upgrading nmap
+  7.94_1 -> 7.95 
+==> Installing dependencies for nmap: pcre2
+==> Installing nmap dependency: pcre2
+==> Downloading https://ghcr.io/v2/homebrew/core/pcre2/manifests/10.44
+Already downloaded: /Users/diksha/Library/Caches/Homebrew/downloads/22ed791461c5bf400adde8c3b432c1230866aa1db3c5cb81e06a6ff21cac96ee--pcre2-10.44.bottle_manifest.json
+==> Pouring pcre2--10.44.sonoma.bottle.tar.gz
+🍺  /usr/local/Cellar/pcre2/10.44: 237 files, 6.4MB
+==> Installing nmap
+==> Pouring nmap--7.95.sonoma.bottle.tar.gz
+==> Caveats
+If using `ndiff` returns an error about not being able to import the ndiff module, try:
+  chmod go-w /usr/local/Cellar
+==> Summary
+🍺  /usr/local/Cellar/nmap/7.95: 835 files, 27.9MB
+==> Running `brew cleanup nmap`...
+Removing: /usr/local/Cellar/nmap/7.94_1... (830 files, 26.9MB)
+==> Upgrading webp
+  1.3.2 -> 1.4.0 
+==> Installing dependencies for webp: jpeg-turbo and libpng
+==> Installing webp dependency: jpeg-turbo
+==> Downloading https://ghcr.io/v2/homebrew/core/jpeg-turbo/manifests/3.0.3
+Already downloaded: /Users/diksha/Library/Caches/Homebrew/downloads/d6b83c0ba8addc9c21ec2cf9fc969e5754261e7cf808fdf5925816b927875bb1--jpeg-turbo-3.0.3.bottle_manifest.json
+==> Pouring jpeg-turbo--3.0.3.sonoma.bottle.tar.gz
+🍺  /usr/local/Cellar/jpeg-turbo/3.0.3: 45 files, 4.1MB
+==> Installing webp dependency: libpng
+==> Downloading https://ghcr.io/v2/homebrew/core/libpng/manifests/1.6.43
+Already downloaded: /Users/diksha/Library/Caches/Homebrew/downloads/dd618b09b8d6d4b89203b771528951e5309631cc3afd8dc1236f0e98965f2b67--libpng-1.6.43.bottle_manifest.json
+==> Pouring libpng--1.6.43.sonoma.bottle.tar.gz
+🍺  /usr/local/Cellar/libpng/1.6.43: 28 files, 1.3MB
+==> Installing webp
+==> Pouring webp--1.4.0.sonoma.bottle.tar.gz
+🍺  /usr/local/Cellar/webp/1.4.0: 64 files, 2.5MB
+==> Running `brew cleanup webp`...
+Removing: /usr/local/Cellar/webp/1.3.2... (63 files, 2.5MB)
+==> Upgrading jpeg-xl
+  0.9.1 -> 0.10.3 
+==> Installing dependencies for jpeg-xl: giflib, highway, imath and openexr
+==> Installing jpeg-xl dependency: giflib
+==> Downloading https://ghcr.io/v2/homebrew/core/giflib/manifests/5.2.2
+Already downloaded: /Users/diksha/Library/Caches/Homebrew/downloads/283773c4d2db4fe867419d7eea6811a6417889d78fad8871041c07f49b22d2a1--giflib-5.2.2.bottle_manifest.json
+==> Pouring giflib--5.2.2.sonoma.bottle.tar.gz
+🍺  /usr/local/Cellar/giflib/5.2.2: 20 files, 365.6KB
+==> Installing jpeg-xl dependency: highway
+==> Downloading https://ghcr.io/v2/homebrew/core/highway/manifests/1.2.0
+Already downloaded: /Users/diksha/Library/Caches/Homebrew/downloads/8cb1608f21fba449c4e34b0a4912e3d73b6f2fa2577c916720799b5057207452--highway-1.2.0.bottle_manifest.json
+==> Pouring highway--1.2.0.sonoma.bottle.tar.gz
+🍺  /usr/local/Cellar/highway/1.2.0: 75 files, 7.1MB
+==> Installing jpeg-xl dependency: imath
+==> Downloading https://ghcr.io/v2/homebrew/core/imath/manifests/3.1.11
+Already downloaded: /Users/diksha/Library/Caches/Homebrew/downloads/4738c3b3aeed35cc9103ddfda8626c334457672a7e704d000247ccc8f1fddee9--imath-3.1.11.bottle_manifest.json
+==> Pouring imath--3.1.11.sonoma.bottle.tar.gz
+🍺  /usr/local/Cellar/imath/3.1.11: 50 files, 938.7KB
+==> Installing jpeg-xl dependency: openexr
+==> Downloading https://ghcr.io/v2/homebrew/core/openexr/manifests/3.2.4
+Already downloaded: /Users/diksha/Library/Caches/Homebrew/downloads/64b203875dbfc58a68a1ab1bee0b9dcfa77a93c55c283a295b618ea0434c8060--openexr-3.2.4.bottle_manifest.json
+==> Pouring openexr--3.2.4.sonoma.bottle.tar.gz
+🍺  /usr/local/Cellar/openexr/3.2.4: 206 files, 7.4MB
+==> Installing jpeg-xl
+==> Pouring jpeg-xl--0.10.3.sonoma.bottle.tar.gz
+🍺  /usr/local/Cellar/jpeg-xl/0.10.3: 63 files, 40.6MB
+==> Running `brew cleanup jpeg-xl`...
+Removing: /usr/local/Cellar/jpeg-xl/0.9.1... (45 files, 7.2MB)
+Removing: /Users/diksha/Library/Caches/Homebrew/jpeg-xl_bottle_manifest--0.9.1... (20.5KB)
+==> Upgrading aom
+  3.8.1 -> 3.9.1 
+==> Pouring aom--3.9.1.sonoma.bottle.tar.gz
+🍺  /usr/local/Cellar/aom/3.9.1: 24 files, 12.2MB
+==> Running `brew cleanup aom`...
+Removing: /usr/local/Cellar/aom/3.8.1... (23 files, 12.4MB)
+Removing: /Users/diksha/Library/Caches/Homebrew/aom_bottle_manifest--3.8.1... (21.7KB)
+==> Upgrading php
+  8.3.3 -> 8.3.8 
+==> Installing dependencies for php: openldap and freetds
+==> Installing php dependency: openldap
+==> Downloading https://ghcr.io/v2/homebrew/core/openldap/manifests/2.6.8
+Already downloaded: /Users/diksha/Library/Caches/Homebrew/downloads/521e6d28774a296c05aaf8bccd4a248f5bbfe6ad48d824592473a62c51c48a0d--openldap-2.6.8.bottle_manifest.json
+==> Pouring openldap--2.6.8.sonoma.bottle.tar.gz
+🍺  /usr/local/Cellar/openldap/2.6.8: 342 files, 7.2MB
+==> Installing php dependency: freetds
+==> Downloading https://ghcr.io/v2/homebrew/core/freetds/manifests/1.4.17
+Already downloaded: /Users/diksha/Library/Caches/Homebrew/downloads/e894ef7de3751b94609006b98e00352fb8711cf5e0b6ea1441329dff166a4138--freetds-1.4.17.bottle_manifest.json
+==> Pouring freetds--1.4.17.sonoma.bottle.tar.gz
+🍺  /usr/local/Cellar/freetds/1.4.17: 1,424 files, 15.5MB
+==> Installing php
+==> Pouring php--8.3.8.sonoma.bottle.tar.gz
+==> /usr/local/Cellar/php/8.3.8/bin/pear config-set php_ini /usr/local/etc/php/8.3/php.ini system
+==> /usr/local/Cellar/php/8.3.8/bin/pear config-set php_dir /usr/local/share/pear system
+==> /usr/local/Cellar/php/8.3.8/bin/pear config-set doc_dir /usr/local/share/pear/doc system
+==> /usr/local/Cellar/php/8.3.8/bin/pear config-set ext_dir /usr/local/lib/php/pecl/20230831 system
+==> /usr/local/Cellar/php/8.3.8/bin/pear config-set bin_dir /usr/local/opt/php/bin system
+==> /usr/local/Cellar/php/8.3.8/bin/pear config-set data_dir /usr/local/share/pear/data system
+==> /usr/local/Cellar/php/8.3.8/bin/pear config-set cfg_dir /usr/local/share/pear/cfg system
+==> /usr/local/Cellar/php/8.3.8/bin/pear config-set www_dir /usr/local/share/pear/htdocs system
+==> /usr/local/Cellar/php/8.3.8/bin/pear config-set man_dir /usr/local/share/man system
+==> /usr/local/Cellar/php/8.3.8/bin/pear config-set test_dir /usr/local/share/pear/test system
+==> /usr/local/Cellar/php/8.3.8/bin/pear config-set php_bin /usr/local/opt/php/bin/php system
+==> /usr/local/Cellar/php/8.3.8/bin/pear update-channels
+==> Caveats
+To enable PHP in Apache add the following to httpd.conf and restart Apache:
+    LoadModule php_module /usr/local/opt/php/lib/httpd/modules/libphp.so
+
+    <FilesMatch \.php$>
+        SetHandler application/x-httpd-php
+    </FilesMatch>
+
+Finally, check DirectoryIndex includes index.php
+    DirectoryIndex index.php index.html
+
+The php.ini and php-fpm.ini file can be found in:
+    /usr/local/etc/php/8.3/
+
+To restart php after an upgrade:
+  brew services restart php
+Or, if you don't want/need a background service you can just run:
+  /usr/local/opt/php/sbin/php-fpm --nodaemonize
+==> Summary
+🍺  /usr/local/Cellar/php/8.3.8: 524 files, 86.8MB
+==> Running `brew cleanup php`...
+Removing: /usr/local/Cellar/php/8.3.3... (523 files, 91.3MB)
+Removing: /Users/diksha/Library/Caches/Homebrew/php_bottle_manifest--8.3.3... (56.9KB)
+==> Upgrading gcc
+  13.2.0 -> 14.1.0_1 
+==> Pouring gcc--14.1.0_1.sonoma.bottle.tar.gz
+🍺  /usr/local/Cellar/gcc/14.1.0_1: 1,663 files, 455.1MB
+==> Running `brew cleanup gcc`...
+Removing: /usr/local/Cellar/gcc/13.2.0... (1,590 files, 421.5MB)
+==> Checking for dependents of upgraded formulae...
+==> Reinstalling 1 dependent with broken linkage from source:
+mysql
+==> Fetching dependencies for mysql: libfido2, protobuf@21, bison and cmake
+==> Fetching libfido2
+==> Downloading https://ghcr.io/v2/homebrew/core/libfido2/manifests/1.15.0
+Already downloaded: /Users/diksha/Library/Caches/Homebrew/downloads/292955ce6f66d4d7d827690a78eeac2946aab6468af64c128d6083ee8658337d--libfido2-1.15.0.bottle_manifest.json
+==> Downloading https://ghcr.io/v2/homebrew/core/libfido2/blobs/sha256:c25ffe40fef70db5d37372fcbe4d3e34eb50ba9c5c0e3714d3cbb09d07c9a73d
+################################################################################################################################## 100.0%
+==> Fetching protobuf@21
+==> Downloading https://ghcr.io/v2/homebrew/core/protobuf/21/manifests/21.12-2
+################################################################################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/protobuf/21/blobs/sha256:7ed1bf5fadc538bfbe3be0aa42bfb07673c17473ebb44df48f2c12bcafeeeaf
+################################################################################################################################## 100.0%
+==> Fetching bison
+==> Downloading https://ghcr.io/v2/homebrew/core/bison/manifests/3.8.2
+################################################################################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/bison/blobs/sha256:cadf52c2fd93ef340f01a36a8468b8725f5218ee6c62773b3838b8c01c862c9b
+################################################################################################################################## 100.0%
+==> Fetching cmake
+==> Downloading https://ghcr.io/v2/homebrew/core/cmake/manifests/3.29.6
+################################################################################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/cmake/blobs/sha256:8693bc59564fa57ed843e1187bf3772c0c6231e83fdb7c7814a5704a46add501
+################################################################################################################################## 100.0%
+==> Fetching mysql
+==> Downloading https://raw.githubusercontent.com/Homebrew/homebrew-core/566601dfcdba00cdb4daa1596ac10c737989ffcd/Formula/m/mysql.rb
+################################################################################################################################## 100.0%
+==> Downloading https://raw.githubusercontent.com/Homebrew/formula-patches/bd61f2edc4c551856f894d307140b855edb2b4f5/mysql/boost-check.pat
+################################################################################################################################## 100.0%
+==> Downloading https://cdn.mysql.com/Downloads/MySQL-8.3/mysql-boost-8.3.0.tar.gz
+################################################################################################################################## 100.0%
+==> Reinstalling mysql 
+==> Installing dependencies for mysql: bison, cmake, libfido2 and protobuf@21
+==> Installing mysql dependency: bison
+==> Downloading https://ghcr.io/v2/homebrew/core/bison/manifests/3.8.2
+Already downloaded: /Users/diksha/Library/Caches/Homebrew/downloads/0a84b14c20dfba4609542ea4b14a4eb93d369f7f83f373b568017fc7d76b6505--bison-3.8.2.bottle_manifest.json
+==> Pouring bison--3.8.2.sonoma.bottle.tar.gz
+🍺  /usr/local/Cellar/bison/3.8.2: 100 files, 3.7MB
+==> Installing mysql dependency: cmake
+==> Downloading https://ghcr.io/v2/homebrew/core/cmake/manifests/3.29.6
+Already downloaded: /Users/diksha/Library/Caches/Homebrew/downloads/bfcab89dac9777cc697e8aa7a40f4962b705f7686bc0bb01b4db3b1a97047150--cmake-3.29.6.bottle_manifest.json
+==> Pouring cmake--3.29.6.sonoma.bottle.tar.gz
+🍺  /usr/local/Cellar/cmake/3.29.6: 3,385 files, 59.3MB
+==> Installing mysql dependency: libfido2
+==> Downloading https://ghcr.io/v2/homebrew/core/libfido2/manifests/1.15.0
+Already downloaded: /Users/diksha/Library/Caches/Homebrew/downloads/292955ce6f66d4d7d827690a78eeac2946aab6468af64c128d6083ee8658337d--libfido2-1.15.0.bottle_manifest.json
+==> Pouring libfido2--1.15.0.sonoma.bottle.tar.gz
+🍺  /usr/local/Cellar/libfido2/1.15.0: 562 files, 1MB
+==> Installing mysql dependency: protobuf@21
+==> Downloading https://ghcr.io/v2/homebrew/core/protobuf/21/manifests/21.12-2
+Already downloaded: /Users/diksha/Library/Caches/Homebrew/downloads/583342af32dcbdcd8cfa8359e446e22f36310246bf95602d6813748f1af52728--protobuf@21-21.12-2.bottle_manifest.json
+==> Pouring protobuf@21--21.12.sonoma.bottle.2.tar.gz
+🍺  /usr/local/Cellar/protobuf@21/21.12: 289 files, 19.7MB
+==> Installing mysql
+==> Patching
+==> Applying boost-check.patch
+patching file CMakeLists.txt
+==> cmake -S . -B build -DCOMPILATION_COMMENT=Homebrew -DINSTALL_DOCDIR=share/doc/mysql -DINSTALL_INCLUDEDIR=include/mysql -DINSTALL_INFO
+==> cmake --build build
+==> cmake --install build
+==> ./mysql-test-run.pl status --vardir=/private/tmp/d20240630-8001-85buw3
+==> Downloading https://formulae.brew.sh/api/formula.jws.json
+################################################################################################################################## 100.0%
+==> Caveats
+We've installed your MySQL database without a root password. To secure it run:
+    mysql_secure_installation
+
+MySQL is configured to only allow connections from localhost by default
+
+To connect run:
+    mysql -u root
+
+To restart mysql after an upgrade:
+  brew services restart mysql
+Or, if you don't want/need a background service you can just run:
+  /usr/local/opt/mysql/bin/mysqld_safe --datadir\=/usr/local/var/mysql
+==> Summary
+🍺  /usr/local/Cellar/mysql/8.3.0_1: 323 files, 305.6MB, built in 48 minutes 34 seconds
+==> Caveats
+==> python@3.12
+Python has been installed as
+  /usr/local/bin/python3
+
+Unversioned symlinks `python`, `python-config`, `pip` etc. pointing to
+`python3`, `python3-config`, `pip3` etc., respectively, have been installed into
+  /usr/local/opt/python@3.12/libexec/bin
+
+See: https://docs.brew.sh/Homebrew-and-Python
+==> nmap
+If using `ndiff` returns an error about not being able to import the ndiff module, try:
+  chmod go-w /usr/local/Cellar
+==> php
+To enable PHP in Apache add the following to httpd.conf and restart Apache:
+    LoadModule php_module /usr/local/opt/php/lib/httpd/modules/libphp.so
+
+    <FilesMatch \.php$>
+        SetHandler application/x-httpd-php
+    </FilesMatch>
+
+Finally, check DirectoryIndex includes index.php
+    DirectoryIndex index.php index.html
+
+The php.ini and php-fpm.ini file can be found in:
+    /usr/local/etc/php/8.3/
+
+To restart php after an upgrade:
+  brew services restart php
+Or, if you don't want/need a background service you can just run:
+  /usr/local/opt/php/sbin/php-fpm --nodaemonize
+==> mysql
+We've installed your MySQL database without a root password. To secure it run:
+    mysql_secure_installation
+
+MySQL is configured to only allow connections from localhost by default
+
+To connect run:
+    mysql -u root
+
+To restart mysql after an upgrade:
+  brew services restart mysql
+Or, if you don't want/need a background service you can just run:
+  /usr/local/opt/mysql/bin/mysqld_safe --datadir\=/usr/local/var/mysql
+diksha@Dikshas-MacBook-Pro ~ % touch requirements.txt
+
+diksha@Dikshas-MacBook-Pro ~ % nano requirements.txt
+
+  UW PICO 5.09                                             File: requirements.txt                                              Modified  
+
+beautifulsoup4
+certifi
+chromadb
+github
+langchain
+markdown
+nltk
+selenium
+torch
+transformers
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+^G Get Help           ^O WriteOut           ^R Read File          ^Y Prev Pg            ^K Cut Text           ^C Cur Pos            
+^X Exit               ^J Justify            ^W Where is           ^V Next Pg            ^U UnCut Text         ^T To Spell           
